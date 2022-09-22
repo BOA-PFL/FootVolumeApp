@@ -26,8 +26,9 @@ for (row in 1:dim(dat)[1]){
 
 # 
 EU_Size <- c(dat$ShoeSize +33) #Male EU size conversion
- 
 dat$EU_Size <- c(dat$ShoeSize +33) 
+
+
 
 EU_Size <- c(dat$ShoeSize +31)  # Female EU size conversion
 dat$EU_Size <- c(dat$ShoeSize +31)
